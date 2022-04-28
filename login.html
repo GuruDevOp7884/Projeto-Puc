@@ -6,34 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="login.css">
     <title>Projeto</title>
 </head>
 <body>
     <div class="container">
         <nav class="navbar navbar-dark ">
            <a class="navbar-brand mb-0 h1" href="index.html">Home</a>
+           <p class="texto_log">Login</p>
             <form class="form-inline">
               <button class="btn btn-dark " type="button">Ainda não é cliente?</button>
-              <button class="login_btn btn btn-dark" type="button" onclick="abrir_login()" >Login</button>
             </form>
           </nav>
+    </div>      
     <div class="conteudo row">      
-        <div class="col-md-6">
-           <p>
-            Controle de Nota Fiscal e Estoque da sua empresa de forma prática, segura e econômica
-           </p>
+        <div class="input_log col-md-6 ">
+           <input type="text" placeholder="    Usuário">
+           <input type="password" placeholder="    Senha">
+           <button class="btn btn-dark " type="button">Entrar</button>
+           <button class="btn btn-dark " type="button">Esqueceu sua senha?</button>
         </div>
         <div class="col-md-6">
            <a>
-              <img class="" src="img/nota_fiscal.png" alt="img_nota_fiscal">
+              <img class="" src="img/cadeado.png" alt="img_cadeado">
            </a>
         </div>
     </div>
     <footer>
     <div class="rodape">
         <p class="rodape_text">
-            Brasil
+           
         </p>
     </div>
     </footer>
@@ -48,9 +51,7 @@
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-
-<script src="main.js"></script>
 </html>
