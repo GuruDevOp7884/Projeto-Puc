@@ -5,12 +5,21 @@
 - HTML5
 - CSS3
 
-## Interface de referencia para criação:
+## Interface de referência para criação:
 
+## Referêcia-1
 
-<img src="img/referencia-1.png">
+<img src="img/Referencias/referencia-1.png">
 
+---
 
-## Resultado:
+## Resultado-1
+<img src="img/Referencias/Resultado.png">
 
-<img src="img/Resultado.png">
+---
+## Referêcia-2
+<img src="img/Referencias/Referencia2.png">
+
+## Resultado-2
+<img src="img/Referencias/Resultado2.png">
+
