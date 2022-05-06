@@ -11,7 +11,7 @@ function logout(){
 }
 
 function senhaRec(){
-    window.open("recuperacao.html", "_self")
+    window.open("recSenha.html", "_self")
 }
 
 function fazerLogin(){
