@@ -7,33 +7,29 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="index.css"> -->
-    <!-- <link rel="stylesheet" href="login.css"> -->
-    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="recSenha.css">
     <title>Projeto</title>
 </head>
 <body>
     <div class="container">
         <nav class="navbar navbar-dark ">
            <a class="navbar-brand mb-0 h1" href="index.html">Home</a>
-           <p class="texto_log">Cadastre-se</p>
+           <p class="texto_log">Recuperação de senha</p>
             <form class="form-inline">
-              <button class="btn btn-dark " type="button" onclick="abrirLogin()">Login</button>
+              <button class="btn btn-dark " type="button" onclick="abrirCadastro()" >Ainda não é cliente?</button>
+              <button class="login_btn btn btn-dark" type="button" onclick="abrirLogin()" >Login</button>
             </form>
           </nav>
        
     <div class="conteudo row">      
         <div class="input_log col-md-6 ">
-           <input id="usuario" class="form-control" type="text" placeholder="    Nome completo">
-           <input id="usuario" class="form-control" type="text" placeholder="    Email">
-           <input id="senha" class="form-control" type="text" placeholder="    Telefone">
-           <input id="senha" class="form-control" type="text" placeholder="    Usuário">
-           <input id="senha" class="form-control" type="text" placeholder="    Senha">
-           <button id="entrar" type="submit" onclick="" class="btn_log1 btn-dark " type="button">Enviar</button>
-           
+           <input id="usuario" class="form-control" type="text" maxlength="12" placeholder=" Informe seu usuário">
+           <input id="senha" class="form-control" type="text" maxlength="12" placeholder="  Informe seu Email">
+           <button id="entrar" type="submit" onclick="" class="btn_log1 btn-dark " type="button">Enviar</button>   
         </div>
         <div class="col-md-6">
            <a>
-              <img class="" src="img/whatsapp.png" alt="img_cadeado">
+              <img class="" src="img/cadeado.png" alt="img_cadeado">
            </a>
         </div>
     </div>
