@@ -28,6 +28,7 @@ function fazerLogin(){
 
     if(testar == true && usuario_digitado.length >= 5 && senha_digitada.length >=6 ){
         alert("logado com êxito")
+        window.open("homepage.html")
         
     }
     
