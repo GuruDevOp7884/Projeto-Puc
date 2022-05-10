@@ -39,3 +39,6 @@ $(function() {
   });
   
 });
+
+// ICONES
+feather.replace()

@@ -4,3 +4,20 @@
     margin-bottom: 0.5rem;
 }
 
+.contato{
+    margin-top: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.contato> li > a{
+    color: rgb(49, 94, 227);
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
