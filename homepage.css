@@ -20,4 +20,14 @@
     display: flex;
     justify-content: space-evenly;
 }
+.card {
+    transition: box-shadow .3s;
+    border-radius:10px;
+    background: #fff;
+    float: left;
+    
+  }
+.card:hover {
+    box-shadow: 0 0 20px rgba(6, 6, 6, 0.2); 
+  }
 
