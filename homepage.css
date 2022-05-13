@@ -30,4 +30,12 @@
 .card:hover {
     box-shadow: 0 0 20px rgba(6, 6, 6, 0.2); 
   }
+  
+.icone-transicao:hover{
+    transform: scale(1.4);
+    transition: ease-out 0.2s;
+    
+}
+
+
 

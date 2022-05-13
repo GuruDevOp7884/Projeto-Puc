@@ -22,6 +22,7 @@ body{
 
 
 .input_log> input{
+    margin-bottom: 25px;
     height: 2.5rem;
     width: 20rem;
 }
@@ -29,6 +30,16 @@ body{
 .input_log> button{
     height: 2.5rem;
     width: 20rem;
+}
+
+/* .input_log> label{
+    margin-bottom: 30px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+} */
+.imagem-cad{
+    margin-top: 50px;
 }
 
 
@@ -64,8 +75,9 @@ body{
 }
 
 img{
-    width: 25rem;
-    height: 23rem;  
+    margin-left: 20px;
+    width: 21rem;
+    height: 20rem;  
 }
 
 .conteudo p{  

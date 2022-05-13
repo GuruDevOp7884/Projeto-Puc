@@ -6,6 +6,8 @@ body{
     padding: 0;
 }
 
+
+
 .texto_log{
     display: flex;
     flex-direction: column;
@@ -22,11 +24,13 @@ body{
 
 
 .input_log> input{
+    margin-bottom: 30px;
     height: 2.5rem;
     width: 20rem;
 }
 
 .input_log> button{
+    margin-bottom: 30px;
     height: 2.5rem;
     width: 20rem;
 }
