@@ -11,14 +11,17 @@ function adicionarItem() {
     var nova_celula_preco = nova_linha.insertCell(1)
     var nova_celula_data = nova_linha.insertCell(2)
     var nova_celula_hora = nova_linha.insertCell(3)
+
     let data = new Date()
     let data_produto = (adicionarZero(data.getDate())) + "/" + (adicionarZero(data.getMonth() + 1)) + "/" + (adicionarZero(data.getFullYear())); 
     let hora = new Date()
     let hora_produto = (adicionarZero(hora.getHours())) + ":" + (adicionarZero(hora.getMinutes())) + ":" + (adicionarZero(hora.getSeconds()));
+
     nova_celula_prod.innerHTML = produto_digitado
     nova_celula_preco.innerHTML = preco_digitado
     nova_celula_data.innerHTML = data_produto
     nova_celula_hora.innerHTML = hora_produto
+    
     document.getElementById('nome_do_produto').value = ''
     document.getElementById('preco_do_produto').value = ''
     }

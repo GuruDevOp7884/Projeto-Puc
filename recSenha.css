@@ -15,14 +15,20 @@ body{
 }
 
 .input_log{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 2rem;
+    background: #FFFFFF;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 4px -2px #989898;
+    -moz-box-shadow: 0 4px 4px -2px #989898;
+    -webkit-box-shadow: 0 4px 4px -2px #989898;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1.25rem;
+    padding: 50px 350px 50px 50px;  
 }
 
 
 .input_log> input{
+    margin-bottom: 1.875rem;
     height: 2.5rem;
     width: 20rem;
 }
@@ -44,12 +50,15 @@ body{
 .login_btn{
     margin-left: 2rem;
 }
+
 .navbar-brand{
     font-size: xx-large;
 }
+
 .navbar{
     background-color: #00a6ff;
 }
+
 .navbar form{
     display: flex;
     justify-content:end ;
@@ -61,7 +70,9 @@ body{
 }
 
 .conteudo{
-    margin: 10rem;
+    display: flex;
+    justify-content: center;
+    margin: 165px 0px 265px 0px;
 }
 
 img{

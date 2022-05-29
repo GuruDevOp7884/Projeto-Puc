@@ -31,7 +31,7 @@ function fazerLogin(){
         window.open("homepage.html")
         
     }
-    // aki
+    
  
     if(testar == true && usuario_digitado.length <= 4 ){
     alert("Seu usuário deve conter pelomenos 5 caracteres")
@@ -48,13 +48,4 @@ function fazerLogin(){
 
 }
 
-// codigo teste do alerta
 
-// if(testar == true && usuario_digitado.length <= 4 ){
-//     usuario_digitado = document.getElementById('entrar');
-//     usuario_digitado.addEventListener('click', function(){
-//         var alert = document.getElementById('alerta');
-//         alert.innerHTML = "Usuário deve conter pelomenos 5 caracteres!";
-//     }, false);
-
-// }

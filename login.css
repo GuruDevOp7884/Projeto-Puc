@@ -17,20 +17,26 @@ body{
 }
 
 .input_log{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    background: #FFFFFF;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 4px -2px #989898;
+    -moz-box-shadow: 0 4px 4px -2px #989898;
+    -webkit-box-shadow: 0 4px 4px -2px #989898;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1.25rem;
+    padding: 50px 350px 50px 50px;
+ 
 }
 
-
 .input_log> input{
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     height: 2.5rem;
     width: 20rem;
 }
 
 .input_log> button{
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     height: 2.5rem;
     width: 20rem;
 }
@@ -64,12 +70,14 @@ body{
 }
 
 .conteudo{
-    margin: 10rem;
+    display: flex;
+    justify-content: center;
+    margin: 165px 0px 165px 0px;
 }
 
 img{
-    width: 30rem;
-    height: 18rem;  
+    width: 50rem;
+    height: 27rem;  
 }
 
 .conteudo p{  
@@ -91,6 +99,7 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center; 
+    margin-top: 305px;
     padding: 20px 0px 20px 0px;
     background-color: #bfe9ff;
 }
