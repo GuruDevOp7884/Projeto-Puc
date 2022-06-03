@@ -12,15 +12,24 @@
 <body>
     <div class="">
         <nav class="navbar navbar-dark ">
-           <a class="navbar-brand mb-0 h1" href="index.html">Home</a>
+           <a class="navbar-brand mb-0 h1" href="index.html">Inicio</a>
             <form class="form-inline">
               <button class="cadastro_btn btn btn-dark " type="button" onclick="abrirCadastro()">Ainda não é cliente?</button>
               <button class="login_btn btn btn-dark" type="button" onclick="abrirLogin()" >Login</button>
             </form>
         </nav>
+        
+          <!--início do carrossel-->
           <section class="col-md-6">
             <div class="conteudo row col-md-12">        
-              <div id="carouselExampleFade" class="carousel slide carousel-slide" data-ride="carousel" data-interval ="2500">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval ="2500">
+
+                <ol class="carousel-indicators">
+                  <li class="bg-primary" data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+                  <li class="bg-primary" data-target="#carouselExampleFade" data-slide-to="1"></li>
+                  <li class="bg-primary" data-target="#carouselExampleFade" data-slide-to="2"></li>
+                </ol>
+
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="img/img-carousel/carousel1.png" class="d-block w-100%" alt="...">
@@ -37,9 +46,13 @@
          </section>
          <footer>
           <div class="rodape">
-              <p class="rodape_text">
-                  Brasil
-              </p>
+          <div class="rodape-links">
+            <a href="#" target="_blank">Informações </a>-
+            <a href="mailto:gugaalves92@hotmail.com" target="_blank">Suporte </a>-
+            <a href="#" target="_blank">Markerting</a>
+          </div>
+          <p class="mt-2">Termos de Uso - Politica de Privacidade</p>
+          <p class="text-muted">@ 2022 Clarity Money</p>
           </div>
           </footer>
       

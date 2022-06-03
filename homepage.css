@@ -20,14 +20,14 @@
     display: flex;
     margin: 5px;
 }
+
 .card {
     transition: box-shadow .3s;
     border-radius:10px;
     background: #fff;
     float: left;
-    
-    
   }
+
 .card:hover {
     box-shadow: 0 0 20px rgba(6, 6, 6, 0.2); 
     
@@ -40,3 +40,21 @@
 }
 
 
+#tabela tr td:last-child{
+    text-align: right;
+  }
+  
+
+  #tabela tr:nth-child(odd){
+    background-color: #eee;
+  }
+  
+  
+  #tabela tr:hover td{
+    background-color: #feffb7;
+  }
+  
+ 
+  #tabela tr.selecionado td{
+    background-color: #aff7ff;
+  }

@@ -66,7 +66,7 @@ body{
 
 .navbar a{
     margin-left: 1rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .conteudo{
@@ -84,12 +84,12 @@ img{
     height: 20rem;  
 }
 
-.rodape_text{
+/* .rodape_text{
 font-size: xx-large;
 display: flex;
 justify-content: center;
 margin-top: 10px;
-}
+} */
 
 footer{
     display: flex;

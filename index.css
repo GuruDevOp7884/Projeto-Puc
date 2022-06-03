@@ -25,7 +25,7 @@ body{
 
 .navbar a{
     margin-left: 1rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 
@@ -37,17 +37,22 @@ body{
     padding: 40px 80px 40px 40px;
 }
 
+.rodape-links > a:hover{
+    text-decoration: none;
+    color: black;
+}
+
 .rodape{
     display: flex;
     flex-direction: column;
 }
 
-.rodape_text{
+/* .rodape_text{
 font-size: xx-large;
 display: flex;
 justify-content: center;
 margin-top: 10px;
-}
+} */
 
 footer{
     display: flex;

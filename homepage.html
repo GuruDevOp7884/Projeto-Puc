@@ -19,7 +19,7 @@
 <body>
   <div class="">
     <nav class="navbar navbar-dark ">
-      <a class="navbar-brand mb-0 h1" href="index.html">Home</a>
+      <a class="navbar-brand mb-0 h1" href="index.html">Inicio</a>
       <form class="form-inline">
         <!-- <button class="cadastro_btn btn btn-dark " type="button" onclick="abrirCadastro()">Perfil</button> -->
         <button class="login_btn btn btn-dark" type="button" onclick="logout()">Sair</button>
@@ -30,16 +30,25 @@
     <div class="row">
       <div class="col-3">
         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
           <a class="nav-link active" id="v-pills-estoque-tab" data-toggle="pill" href="#v-pills-estoque" role="tab"
-            aria-controls="v-pills-estoque" aria-selected="true">Estoque</a>
-          <a class="nav-link" id="v-pills-notas-tab" data-toggle="pill" href="#v-pills-notas" role="tab"
-            aria-controls="v-pills-notas" aria-selected="false">Notas fiscais</a>
+            aria-controls="v-pills-estoque" aria-selected="true">Estoque
+          </a>
+
+          <!-- <a class="nav-link" id="v-pills-notas-tab" data-toggle="pill" href="#v-pills-notas" role="tab"
+            aria-controls="v-pills-notas" aria-selected="false">Notas fiscais
+          </a> -->
+
           <a class="nav-link" id="v-pills-parceiros-tab" data-toggle="pill" href="#v-pills-parceiros" role="tab"
-            aria-controls="v-pills-parceiros" aria-selected="false">Parceiros</a>
-          <a class="nav-link" id="v-pills-perfil-tab" data-toggle="pill" href="#v-pills-perfil" role="tab"
-            aria-controls="v-pills-perfil" aria-selected="false">Perfil</a>
+            aria-controls="v-pills-parceiros" aria-selected="false">Parceiros
+          </a>
+
+          <!-- <a class="nav-link" id="v-pills-perfil-tab" data-toggle="pill" href="#v-pills-perfil" role="tab"
+            aria-controls="v-pills-perfil" aria-selected="false">Perfil
+          </a> -->
         </div>
       </div>
+
       <div class="col-9">
         <div class="tab-content" id="v-pills-tabContent">
           <div class="tab-pane fade show active" id="v-pills-estoque" role="tabpanel"
@@ -47,7 +56,7 @@
 
             <div class="barra_estoque border">
               <div>
-                <h4 class="text-center mt-5 pb-0 pt-0">Pesquise o produto</h4>
+                <h4 class="text-center mt-5 mr-2 pb-0 pt-0">Pesquise o produto</h4>
                 <input id='psqs' class="form-control-sm" placeholder="Digite o nome do produto.">
                 <div>
                   <button class="btn btn-primary mb-3 mt-3" onclick="">Pesquisar</button>
@@ -56,14 +65,14 @@
                 <br>
                 <input id='nome_do_produto' class="form-control-sm" placeholder="Digite o nome do produto">
                 <br>
-                <label class="label" for="preco_do_produto">Preço do produto</label>
+                <label class="label mt-2" for="preco_do_produto">Preço do produto</label>
                 <br>
                 <input id='preco_do_produto' class="form-control-sm w-10" placeholder="Digite o preço do produto">
                 <br>
                 <br>
                 <div class="botoes_ad_rm">
                   <button class="btn btn-primary mb-5" onclick="adicionarItem()">Adicionar</button>
-                  <button class="btn btn-outline-primary mb-5" onclick="removerItem()">Remover</button>
+                  <button class="btn btn-outline-danger mb-5" onclick="removerItem()">Remover</button>
                 </div>
               </div>
             </div>
@@ -108,7 +117,8 @@
                   </tr>
                 </tbody>
               </table>
-              <button class="exportToExcel btn btn-outline-primary mb-3 ml-3">Baixar tabela excel</button>
+              <button class="exportToExcel btn btn-outline-success mb-3 ml-3">Baixar tabela excel</button>
+              <button class="btn btn-outline-primary mb-3" id="emitir_nf">Emitir nota fiscal</button>
 
             </div>
 
@@ -117,8 +127,8 @@
 
 
           <!-- NOTAS -->
-          <div class="tab-pane fade" id="v-pills-notas" role="tabpanel" aria-labelledby="v-pills-notas-tab">Em
-            desenvolvimento</div>
+          <!-- <div class="tab-pane fade" id="v-pills-notas" role="tabpanel" aria-labelledby="v-pills-notas-tab">Em
+            desenvolvimento</div> -->
 
           <!-- PARCEIROS -->
           <div class="tab-pane fade" id="v-pills-parceiros" role="tabpanel" aria-labelledby="v-pills-parceiros-tab">
@@ -225,7 +235,7 @@
           </div>
 
           <!-- PERFIL -->
-          <div class="tab-pane fade" id="v-pills-perfil" role="tabpanel" aria-labelledby="v-pills-perfil-tab">
+          <!-- <div class="tab-pane fade" id="v-pills-perfil" role="tabpanel" aria-labelledby="v-pills-perfil-tab">
 
             <div class="perfil-container">
               <div class="row">
@@ -238,9 +248,9 @@
                 <div class="col-md-9">
                   <h2>Matarazzo</h2>
                   <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12"> -->
                       <!-- Card de anotações -->
-                      <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                      <!-- <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
                         <div class="card-header">A fazer</div>
                         <div class="card-body">
                           <h5 class="card-title">Secondary card title</h5>
@@ -256,8 +266,10 @@
                             of the card's content.</p>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                     <!-- Fim do card de anotações -->
+
+
                   </div>
                 </div>
               </div>
@@ -271,9 +283,13 @@
 
     <footer>
       <div class="rodape">
-        <p class="rodape_text">
-          Brasil
-        </p>
+        <div class="rodape-links">
+            <a href="#" target="_blank">Informações </a>-
+            <a href="mailto:gugaalves92@hotmail.com" target="_blank">Suporte </a>-
+            <a href="#" target="_blank">Markerting</a>
+          </div>
+          <p class="mt-2">Termos de Uso - Politica de Privacidade</p>
+          <p class="text-muted">@ 2022 Clarity Money</p>
       </div>
     </footer>
 
