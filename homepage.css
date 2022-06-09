@@ -58,3 +58,32 @@
   #tabela tr.selecionado td{
     background-color: #aff7ff;
   }
+
+
+  @media (max-width: 1370px){
+
+    .card-container{
+      display: inline-block;
+      width: 100%;
+ }
+}
+
+@media (min-width: 500px) and (max-width: 578px){
+
+  .card-container{
+    display: inline-block;
+    width: 100%;
+    padding-right: 135px;
+    padding-left: 135px;
+    padding-top: 10px;
+}
+}
+
+@media (min-width: 360px) and (max-width: 499px){
+
+  .card-container{
+    display: inline-block;
+    width: 100%;
+    padding-left: 12%;
+}
+}
