@@ -1,4 +1,10 @@
 
+.container{
+  max-width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
 .barra_estoque{
     display: flex;
     justify-content: center;
@@ -62,9 +68,9 @@
 
   /* Responsividade cards */
 
-  @media (max-width: 1370px){
+ @media (max-width: 1370px){
 
-    .card-container{
+  .card-container{
       display: inline-block;
       width: 100%;
  }
@@ -72,53 +78,80 @@
 
 @media (min-width: 500px) and (max-width: 578px){
 
-  .card-container{
-    display: inline-block;
-    width: 100%;
-    padding-right: 135px;
-    padding-left: 135px;
-    padding-top: 10px;
-    scroll-behavior: none;
+.card-container{
+   display: inline-block;
+   width: 100%;
+   padding-right: 135px;
+   padding-left: 135px;
+   padding-top: 10px;
+   scroll-behavior: none;
 }
 
-  .navPrincipal{
+.navPrincipal{
     width: fit-content;
 }
 
-  .botoes_nota_excel{
-    display: flex;
-    justify-content: center;
-}
+.exportToExcel{
+    /* display: inline; */
+    margin-left: 20px;
+  }
 }
 
 @media (min-width: 360px) and (max-width: 499px){
 
-  .card-container{
+.card-container{
     display: inline-block;
     width: 100%;
     padding-left: 12%;
 }
 
-.botoes_nota_excel{
-  display: flex;
-  justify-content: center;
-}
-
-  .navPrincipal{
+.navPrincipal{
     width: fit-content;
   }
 }
 
 @media (min-width: 574px) {
   
-  .barra_estoque{
+.barra_estoque{
     display: none;
 }
+
+.container{
+    padding: 0;
+}
+
+.navpills{
+    padding: 0;
+}
+  
 }
 
 @media (min-width: 0px) and (max-width: 574px){
   
-  .barra_estoque1{
+.barra_estoque1{
     display: none;
 }
+
+.container{
+    display: block;
+    padding: 0;
 }
+
+.col-sm-9{
+    padding: 0;
+}
+
+.navpills{
+    padding: 0;
+}
+
+.exportToExcel{
+    margin-right: 5px;
+    margin-left: 15px;
+  }
+
+.notaBtn{
+    margin-right: 0;
+}
+}
+

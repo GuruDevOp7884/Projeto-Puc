@@ -21,31 +21,22 @@
     <nav class="navbar navbar-dark ">
       <a class="navbar-brand mb-0 h1" href="index.html">Inicio</a>
       <form class="form-inline">
-        <!-- <button class="cadastro_btn btn btn-dark " type="button" onclick="abrirCadastro()">Perfil</button> -->
         <button class="login_btn btn btn-dark" type="button" onclick="logout()">Sair</button>
       </form>
     </nav>
 
 
-    <div class="row">
+    <div class="container">
       <div class="col-sm-3 navpills">
         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
           <a class="nav-link active" id="v-pills-estoque-tab" data-toggle="pill" href="#v-pills-estoque" role="tab"
             aria-controls="v-pills-estoque" aria-selected="true">Estoque
           </a>
-
-          <!-- <a class="nav-link" id="v-pills-notas-tab" data-toggle="pill" href="#v-pills-notas" role="tab"
-            aria-controls="v-pills-notas" aria-selected="false">Notas fiscais
-          </a> -->
-
           <a class="nav-link" id="v-pills-parceiros-tab" data-toggle="pill" href="#v-pills-parceiros" role="tab"
             aria-controls="v-pills-parceiros" aria-selected="false">Parceiros
           </a>
 
-          <!-- <a class="nav-link" id="v-pills-perfil-tab" data-toggle="pill" href="#v-pills-perfil" role="tab"
-            aria-controls="v-pills-perfil" aria-selected="false">Perfil
-          </a> -->
         </div>
       </div>
 
@@ -138,20 +129,12 @@
                   </tr>
                 </tbody>
               </table>
-              <div class="botoes_nota_excel">
+              
                 <button class="exportToExcel btn btn-outline-success mb-3">Baixar relatório excel</button>
-                <button class="btn btn-outline-primary mb-3" id="emitir_nf">Emitir nota fiscal</button>
-              </div>
+                <button class="notaBtn btn btn-outline-primary mb-3" id="emitir_nf">Emitir nota fiscal</button>
+              
             </div>
-
           </div>
-
-
-
-          <!-- NOTAS -->
-          <!-- <div class="tab-pane fade" id="v-pills-notas" role="tabpanel" aria-labelledby="v-pills-notas-tab">Em
-            desenvolvimento</div> -->
-
           <!-- PARCEIROS -->
           <div class="tab-pane fade" id="v-pills-parceiros" role="tabpanel" aria-labelledby="v-pills-parceiros-tab">
             <!-- Parceiro1 -->
@@ -253,56 +236,12 @@
                 </div>
               </div>
             </div>
-
           </div>
-
-          <!-- PERFIL -->
-          <!-- <div class="tab-pane fade" id="v-pills-perfil" role="tabpanel" aria-labelledby="v-pills-perfil-tab">
-
-            <div class="perfil-container">
-              <div class="row">
-                <div class="col-md-3">
-                  <img src="img/Parceiros/parceiro 1.png">
-                  <p>Info perfil</p>
-
-                </div>
-
-                <div class="col-md-9">
-                  <h2>Matarazzo</h2>
-                  <div class="row">
-                    <div class="col-md-12"> -->
-                      <!-- Card de anotações -->
-                      <!-- <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
-                        <div class="card-header">A fazer</div>
-                        <div class="card-body">
-                          <h5 class="card-title">Secondary card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                        </div>
-                      </div>
-                      <div class="card text-white bg-primary mb-3 ml-3 " style="max-width: 18rem;">
-                        <div class="card-header">Header</div>
-                        <div class="card-body">
-                          <h5 class="card-title">Secondary card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                        </div>
-                      </div>
-                    </div> -->
-                    <!-- Fim do card de anotações -->
-
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- fim perfil -->
 
         </div>
       </div>
     </div>
-
+ 
     <footer>
       <div class="rodape">
         <div class="rodape-links">
@@ -311,11 +250,11 @@
             <a href="#" target="_blank">Markerting</a>
           </div>
           <p class="mt-2">Termos de Uso - Politica de Privacidade</p>
-          <p class="text-muted">@ 2022 Clarity Money</p>
+          <p class="text-muted">@ 2022 Puc | Developed by Turma 7</p>
       </div>
     </footer>
 
-
+  
 
 
 
@@ -328,6 +267,7 @@
 </body>
 <!-- Icones -->
 <script src="https://unpkg.com/feather-icons"></script>
+<!----------->
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
