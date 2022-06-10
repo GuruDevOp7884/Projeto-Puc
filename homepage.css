@@ -1,3 +1,4 @@
+
 .barra_estoque{
     display: flex;
     justify-content: center;
@@ -77,6 +78,16 @@
     padding-right: 135px;
     padding-left: 135px;
     padding-top: 10px;
+    scroll-behavior: none;
+}
+
+  .navPrincipal{
+    width: fit-content;
+}
+
+  .botoes_nota_excel{
+    display: flex;
+    justify-content: center;
 }
 }
 
@@ -86,5 +97,28 @@
     display: inline-block;
     width: 100%;
     padding-left: 12%;
+}
+
+.botoes_nota_excel{
+  display: flex;
+  justify-content: center;
+}
+
+  .navPrincipal{
+    width: fit-content;
+  }
+}
+
+@media (min-width: 574px) {
+  
+  .barra_estoque{
+    display: none;
+}
+}
+
+@media (min-width: 0px) and (max-width: 574px){
+  
+  .barra_estoque1{
+    display: none;
 }
 }
