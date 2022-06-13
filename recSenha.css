@@ -106,3 +106,40 @@ footer{
 button{
     margin-right: 1rem;
 }
+
+
+@media (min-width:400px) and (max-width:575px)
+{
+    
+    .input_log{
+        margin-left: 14%;
+        border: none;
+        padding: 0;
+        box-shadow: none;
+    }
+     
+}
+
+
+@media (min-width:300px) and (max-width:400px)
+{
+
+    .input_log{
+        margin-left: 13%;
+        border: none;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .input_log input{
+        margin-bottom: 1.875rem;
+        height: 2.5rem;
+        width: 17.5rem;
+    }
+    
+    .input_log button{
+        margin-bottom: 1.875rem;
+        height: 2.5rem;
+        width: 17.5rem;
+    }
+}
